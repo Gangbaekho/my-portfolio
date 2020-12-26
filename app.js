@@ -2,13 +2,15 @@ const sideNav = document.querySelector(".side-nav");
 const xIcon = document.querySelector(".x-icon");
 const hamberger = document.querySelector(".hamberger");
 
-hamberger.addEventListener("click", openSideNav);
-xIcon.addEventListener("click", closeSideNav);
+// setting time line!
+const tl = gsap.timeline({ default: { ease: "power1.out" } });
 
-function openSideNav() {
-  sideNav.style.display = "block";
-}
+hamberger.addEventListener("click", () => {
+  tl.to(".side-nav", { x: "0%", duration: 0.5 });
+  tl.to(".nav__link a", { y: "0%", duration: 1 });
+});
 
-function closeSideNav() {
-  sideNav.style.display = "none";
-}
+xIcon.addEventListener("click", () => {
+  tl.to(".side-nav", { x: "-100%", duration: 0.5 });
+  tl.to(".nav__link a", { y: "100%", duration: 1 });
+});
