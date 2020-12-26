@@ -28,6 +28,7 @@ body {
 
 .hamberger {
   margin-left: 1rem;
+  cursor: pointer;
 }
 
 .hamberger__item {
@@ -38,4 +39,47 @@ body {
 
 .my-name {
   margin-right: 1rem;
+}
+
+.side-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80%;
+  background-color: blueviolet;
+}
+
+.x-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  color: white;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+}
+
+.nav__link {
+  margin: 3rem 0rem;
+}
+
+.nav__link a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav__link a:hover,
+.nav__link a:active {
+  color: black;
 }
