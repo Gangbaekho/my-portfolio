@@ -109,9 +109,11 @@ body {
 
 section {
   width: 100%;
-  height: 100vh;
   padding-top: 5rem;
-  text-align: center;
+}
+
+section h1 {
+  color: blueviolet;
 }
 
 #home {
@@ -140,4 +142,27 @@ section {
 .dummy-profile {
   height: 300px;
   border-radius: 1rem;
+}
+
+.skills {
+  list-style: none;
+  margin: 1rem 1rem;
+}
+
+.skills > li {
+  color: rgb(100, 100, 236);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.skills__list {
+  margin: 1rem 1rem;
+  list-style: none;
+}
+
+.skills__list li {
+  color: black;
+  margin: 2rem 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 5px solid black;
 }
