@@ -24,6 +24,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .hamberger {
@@ -80,9 +84,42 @@ body {
   font-size: 1.5rem;
   display: inline-block;
   transform: translateY(100%);
+  font-weight: bold;
 }
 
 .nav__link a:hover,
 .nav__link a:active {
   color: black;
+}
+
+.main-contents {
+  padding-top: 4rem;
+}
+
+#home {
+  text-align: center;
+}
+
+.home__subtitle {
+  margin: 1rem 0rem;
+}
+
+.home__title {
+  margin: 1rem 0rem;
+  font-size: 2rem;
+  color: blueviolet;
+}
+
+.home__description {
+  line-height: 1.5;
+  padding: 0rem 1rem;
+}
+
+.image-container {
+  margin: 1rem 0rem;
+}
+
+.dummy-profile {
+  height: 300px;
+  border-radius: 1rem;
 }
