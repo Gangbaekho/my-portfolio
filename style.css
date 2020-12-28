@@ -180,3 +180,50 @@ section h1 {
   border-radius: 0.5rem;
   cursor: pointer;
 }
+
+.about__subtitle {
+  text-align: center;
+  font-weight: bold;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0rem;
+  color: blueviolet;
+}
+
+.about__description {
+  line-height: 1.5;
+  width: 80%;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.dummy-profile {
+  margin: 2rem 0rem;
+  width: 10rem;
+  border-radius: 1rem;
+}
+
+.information {
+  font-weight: bold;
+  color: blueviolet;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.information__list {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  list-style: none;
+}
+
+.information__item {
+  margin: 1rem 0rem;
+}
