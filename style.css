@@ -120,19 +120,60 @@ section h1 {
   text-align: center;
 }
 
-.home__subtitle {
-  margin: 1rem 0rem;
+.profile-container {
+  height: 10rem;
+  width: 10rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url("./images/dummy-profile.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.home__title {
+.home__my-name {
   margin: 1rem 0rem;
   font-size: 2rem;
   color: blueviolet;
+  font-weight: bold;
 }
 
-.home__description {
-  line-height: 1.5;
-  padding: 0rem 1rem;
+.home__my-job {
+  font-size: 1.5rem;
+}
+
+.home__links {
+  list-style: none;
+  margin: 1rem 0rem;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home__link {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  color: blueviolet;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home__link:hover,
+.home__link:active {
+  background-color: blueviolet;
+  color: white;
+}
+
+.download {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .image-container {
