@@ -103,12 +103,9 @@ body {
   z-index: 1;
 }
 
-.dummy {
-  height: 8rem;
-}
-
 section {
   width: 100%;
+  padding-top: 4rem;
 }
 
 section h1 {
@@ -117,6 +114,7 @@ section h1 {
 
 #home {
   text-align: center;
+  padding-top: 6rem;
 }
 
 .profile-container {
